@@ -14,10 +14,10 @@ class DBPostst extends Migration
     public function up()
     {
         Schema::create('posts', function (Blueprint $table) {
-            $table->increments('id');
-            $table->string('title', 255);
-            $table->text('text');
-        });
+        $table->increments('id');
+        $table->string('title', 255);
+        $table->text('text');
+    });
     }
 
     /**

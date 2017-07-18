@@ -1,4 +1,4 @@
-@extends('parent_add_post')
+@extends('posts.add_post.parent_add_post')
 
 @section('add_post_script')
     <form method="post" action="/create_post_in_db">

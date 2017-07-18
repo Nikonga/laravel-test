@@ -15,10 +15,12 @@
     <button>Send</button>
 </form>
 
+<p>{{$posts->text}}</p>
+<div style="margin:20px">
 @foreach($comments as $comment)
 
     <p>{{$comment->text}}</p>
-
     @endforeach
+</div>
 </body>
 </html>
