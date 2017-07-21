@@ -18,6 +18,7 @@ Route::get ('/comments', 'TestController@comments');
 Route::get ('/create_comment', 'TestController@create_comments');
 Route::get('/post_comment', 'TestController@post_comment');
 Route::get('/sendmail', 'TestController@sendmail');
+Route::get('/verstka', 'TestController@verstka');
 Route::get('/', function () {
     return view('welcome');
 });

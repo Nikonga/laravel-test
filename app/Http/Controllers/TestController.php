@@ -74,5 +74,8 @@ class TestController extends Controller
         });
         return redirect('/post_comment');
     }
+    public function verstka (){
+        return view('verstka.index');
+    }
     }
 
