@@ -77,5 +77,34 @@ class TestController extends Controller
     public function verstka (){
         return view('verstka.index');
     }
+    public function blank () {
+        return view('blank');
+    }
+
+
+
+
+
+
+    public function premium() {
+    return view('w_premium.premium');
+    }
+
+    public function reviews() {
+        return view('w_premium.reviews');
+    }
+
+    public function contacs () {
+        return view ('w_premium.contacs');
+    }
+
+    public function mission () {
+        return view ('w_premium.mission');
+    }
+
+    public function services() {
+        return view('w_premium.services');
+    }
+
     }
 

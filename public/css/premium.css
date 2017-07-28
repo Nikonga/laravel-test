@@ -1,0 +1,66 @@
+body, html {
+    font-family: "Fira Sans";
+    margin:0;
+    padding:0;
+    width:100%;
+}
+
+.menu {
+    position:absolute;
+    left:0;
+    bottom:0;
+    margin:0;
+    padding:0;
+    width:100%;
+    background-color: #454444;
+}
+a {
+    font-family:"Fira Sans";
+    }
+.cell {
+
+    display: inline-block;
+    margin:0;
+    margin-left:7%;
+    margin-top:2%;
+    margin-bottom:2%;
+    margin-bottom:2%;
+
+    font-family:"Fira Sans";
+    color:white;
+
+    font-size: 130%;
+}
+
+.contacts {
+    position:absolute;
+    display:block;
+    width: 5%;
+    height:5%;
+}
+
+.slides {
+    position:absolute;
+    height:100%;
+    width:100%;
+}
+.slide {
+    position:absolute;
+    height:95%;
+    width:100%;
+    display: none;
+}
+
+.current {
+
+    display:block;
+}
+
+.abs {
+    background-color: #e8a226;
+    height:5px;
+    position:absolute;
+    top:0;
+    left:40px;
+    right:100px;
+}

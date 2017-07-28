@@ -19,6 +19,16 @@ Route::get ('/create_comment', 'TestController@create_comments');
 Route::get('/post_comment', 'TestController@post_comment');
 Route::get('/sendmail', 'TestController@sendmail');
 Route::get('/verstka', 'TestController@verstka');
+Route::Get('/blank', 'TestController@blank');
+
+
+Route::get('/w-premium', 'TestController@premium');
+Route::get('/reviews', 'TestController@reviews');
+Route::Get('/contacts', 'TestController@contacs');
+Route::get('/mission','TestController@mission');
+Route::get('/services', 'TestController@services');
+
+
 Route::get('/', function () {
     return view('welcome');
 });
